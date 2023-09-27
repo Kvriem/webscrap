@@ -19,6 +19,6 @@ for i in range(1,pages):
 
 data={'BookName':bname,'Price':price,'Status':status}
 df=pd.DataFrame(data)
-file_path = r'C:\Users\Kariem\Desktop\scrapped data\books3.csv'
+file_path = r'ENTER UR PATH'
 df.to_csv(file_path, index=False)
 print("done")
